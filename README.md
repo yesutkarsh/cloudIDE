@@ -20,14 +20,21 @@ Docker containers are spun up dynamically for each user session. When a user cli
 ## Run Locally if my deployed link not working
 ### Prerequisites
 - Node js
-- Docker Engine
+- Download Node js from https://nodejs.org/en
+- Docker desktop and Engine
+- Downlaod docker desktop from https://www.docker.com/products/docker-desktop/
+- Download docker engine form https://docs.docker.com/engine/install/
 
 
 ## Installation
 - Clone repo -> Open frontend -> Open terminal within the same folder -> run ```` npm i ```` 
 - Now open backend folder -> open terminal within the same folder -> run ```` npm i ```` 
-- Now open your docker app and it will start your docker container
+- Now open your docker desktop app and it will start your docker container
+- Now open windows terminal and run ````docker pull yesutkarshverma/container:v1.0 ````
+- - It may takes time depending upon on your internet connection as docker image size is around 1.5 gb
+- do not close docker desktop app throughout the process
 - Now go back to frontend and open terminal and run ```` npm run dev ```` 
 - Now go back to backend and open terminal and run ```` node app.js ```` 
 - now type http://localhost:3000/ on chrome and run your app
-- It may takes time depending upon on you internet connection as docker image size is around 1.5 gb
+
+
