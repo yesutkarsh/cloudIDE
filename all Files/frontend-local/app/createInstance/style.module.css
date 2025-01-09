@@ -1,0 +1,52 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.title{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 30px;
+}
+.title p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card{
+    min-width: 350px;
+    border-radius: 12px;
+    padding: 10px;
+    color: rgb(24, 23, 23);
+    background-color: #f8f8f8;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.card h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo i{
+    color: rgb(243, 212, 39);
+    font-size: 100px;
+}
+.card span i{
+    color: rgb(5, 151, 0);
+}
+
+.card button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.144);
+    border-radius: 12px;
+}
+
