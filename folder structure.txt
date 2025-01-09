@@ -1,0 +1,16 @@
+* Inside backend-local is user directory, is the main directory, user have access to this directory only, so on frontend we are giving user a virtual node JS environment and whatever user do will do in this directory like running code performing CRUD Operations.
+
+
+
+backend-local ( folder )
+  - routes/INDEX.JS
+     /start  - This is to test if server is starting or not.
+
+
+    /files - Now this route handles file tree, it goes into user dir and scans what files are available and respond.
+
+   - app.js
+     
+     - first we are creating a terminal in *user directory (user have access to user dir only) at backend to connect to it fronted terminal.
+
+     - Using socket to receive code and run using pty process
